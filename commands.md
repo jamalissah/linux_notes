@@ -49,3 +49,41 @@
                  Hello: Adam
                  Hello: Bob ...
   
+
+VIM commands
+
+1) Navigation   
+    h,j,k,l - Arrow keys
+
+2) Insert mode 
+    i - Insert at cursor
+    a - Insert after cursor
+
+3) Exit insert mode
+    Esc or Ctrl+[
+
+4) Delete
+    d - Delete
+    dd - Delete line
+
+5) Copy and paste
+    yy - copy a line
+    x - cut current character
+    X - cut previous character
+    p - paste before cursor
+    P - paste before cursor
+
+6) Save and exit
+    :w - write file
+    :wq - write file and quit
+    :q - quit (fails if changes not saved)
+    :q! - force quit without saving
+
+7) Search
+    /pattern - Search for pattern
+
+8) General
+    u - Undo
+    Ctrl+r - Redo
+    gg - go to the top of the page
+    G - go to the bottom of the page
